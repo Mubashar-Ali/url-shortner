@@ -41,9 +41,9 @@ export default function RootLayout({ children }) {
               <div className="flex justify-between h-16">
                 <div className="flex">
                   <div className="flex-shrink-0 flex items-center">
-                    <a href="/" className="text-2xl font-bold text-indigo-600">
+                    <Link href="/" className="text-2xl font-bold text-indigo-600">
                       URL Shortener
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="flex items-center">
